@@ -1,0 +1,51 @@
+// typography
+$fontBase: 'Roboto Slab', serif;
+$fontSecond: 'Raleway', sans-serif;
+$fontColor_prime: #ffae00;
+$fontColor_second: #ffffff;
+
+
+//Colors
+//Orange
+$orange: #ffae00;
+$darkorange: #734e00;
+
+//White
+$white:   #fff;
+$whiteGray:  #f2f0e9;
+
+//black
+$black: #1d1c1c;
+$lightblack: #1c2d33;
+$darkblack: #fffff0;
+
+//Brown
+$brown: #4c4129;
+
+
+// Brand Colors
+$prime: $orange;
+	$primeShade: $darkorange;
+$second: $white;
+	$secondShade: $whiteGray;
+$third: $brown;
+$fourth: $black;
+	$fourthShade:$lightblack;
+	$fourthtext: $darkblack;
+
+
+// Hover effects
+$hoverEffect: 10%;
+
+// Size
+$mainContainer: 158rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndent: 11.5rem;
+$containerVerIndent: 10rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndentMobile: 3%;
+$containerVerIndentMobile: 4rem;

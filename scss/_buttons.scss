@@ -1,0 +1,108 @@
+%btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 1rem 3rem;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+
+  @media (max-width: $screen-xs){
+    width: 100%;
+  }
+}
+
+.btn-prime {
+  @extend %btn;
+  background: $prime;
+  font-family: $fontSecond;
+  font-weight: 300; 
+  line-height: 2.4rem;
+  transition: 0.1s;
+  
+
+  &:hover {
+    background: $primeShade;
+    
+  }
+}
+
+.btn-second {
+  @extend %btn;
+  background: $second;
+  background: $prime;
+  font-family: $fontSecond;
+  font-weight: 200; 
+  line-height: 0;
+  transition: 0.1s;
+  &:hover{
+        background: $primeShade;
+      }
+}
+
+.btn-submit{
+  @extend %btn;
+  background: $second;
+  background: $prime;
+  font-family: $fontSecond;
+  font-weight: 200;
+  padding: 2rem 3rem; 
+  line-height: 0;
+  transition: 0.1s;
+  &:hover{
+        background: $primeShade;
+      }
+}
+
+.btn-outline {
+  @extend %btn;
+  background: transparent;
+  border: 2px solid #fff;
+
+  &:hover {
+    background: #fff;
+    color: $fontColor_second;
+  }
+}
+
+.btn-small {
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  background: $prime;
+  font-family: $fontSecond;
+  line-height: 1rem;
+  transition: 0.1s;
+}
+
+.btn-large {
+  font-size: 1.8rem;
+  padding: 1.9rem 5.1rem;
+}
+
+.btn-portfolio{
+  width: auto;
+  margin: 0 auto;
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1.5rem;
+  font-family: $fontSecond;
+  font-weight: 300; 
+  line-height: 2.4rem;
+  transition: 0.5s;
+  &:hover{
+    background: $prime;
+    color: $second;
+  }
+}
+.active{
+  @extend .btn-portfolio
+} 

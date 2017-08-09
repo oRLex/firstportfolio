@@ -1,0 +1,122 @@
+// Position
+// ---------------------------
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+// Float
+// ---------------------------
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.cf {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.fullpage{
+    content: '';
+    height: 100%;
+    width: 100%;
+    
+    left: 0;
+    top: 0;
+     
+}
+
+// Aligning Elements
+// -------------------------
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mobile-text-center {
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}
+
+
+// Colors
+// -------------------------
+.bg-prime {
+  &.bg-prime {
+    background-color: $prime;
+  }
+}
+
+.bg-second {
+  &.bg-second {
+    background-color: $second;
+  }
+}
+
+.bg-third {
+  &.bg-third {
+    background-color: $third;
+  }
+}
+
+.bg-fourth{
+  &.bg-fourth {
+    background-color: $fourth;
+  }
+}
+
+// Cursor
+// -------------------------
+.pointer {
+  cursor: pointer;
+}
+
+// margin & padding
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-10 {
+  margin-bottom: 10rem;
+}
+
+
